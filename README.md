@@ -6,7 +6,7 @@ Für eine Hausarbeit im Fach Informatik an der Hochschule Karlsruhe hat meine Gr
 Link zu den Daten: https://data.deutschebahn.com/dataset/wifi-on-ice.html
 
 Link zu einem Backup der Datei: https://t1p.de/wifionice
-
+Link zu den Daten in einer Parquet-Datei der Daten: https://t1p.de/woiparquet
 
 ToDo:
 - aktuellere Daten erfragen. Mail gesendet, auf Antwort wird gewartet.
