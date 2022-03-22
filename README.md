@@ -13,6 +13,6 @@ Desweiteren gibt es eine Parquet-Datei, die nur lon und lat enthält. Upload auf
 
 ToDo:
 - aktuellere Daten erfragen. Mail gesendet, auf Antwort wird gewartet.
-- alle Gruppenbeteiligten ins Repo hinzufügen
+- herausfinden, wie ein "Data Science"-Projekt durchgeführt wird
 - Fragen stellen, die durch die Analyse beantwortet werden sollen
 - PPP erstellen
