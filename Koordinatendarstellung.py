@@ -1,16 +1,12 @@
-import matplotlib as mpl
 import matplotlib.pyplot as plt
-import matplotlib.axes as ax
-import numpy as np
 import pandas as pd
 
-data = pd.read_parquet('wifionice.parquet')
+data = pd.read_parquet('wifionice.parquet') #Importiert die WifionIce.parquet-Datei
 
-y = data['gps_breite'].iloc[::1000]
-x = data['gps_laenge'].iloc[::1000]
-z = data['link_ping'].iloc[::1000]
+y = data['gps_breite'] # Setzt die Breitenkoordinaten aus der Datei als x-Variable
+x = data['gps_laenge'] # Setzt die Breitenkoordinaten aus der Datei als y-Variable
 
-plt.axis('equal')
+plt.axis('equal') # Setzt für beide Achsen die gleichen Abstände, um ein kaum verzerrtes Abbild der Koordinaten zu bekommen
 
-plt.scatter(x, y, c = z, marker = '.')
-plt.show()
+plt.scatter(x, y) # Erstellt einen Scatterplot mit der x- und y-Variable
+plt.show() # Zeigt den erstellten Scatterplot

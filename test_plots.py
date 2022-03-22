@@ -6,9 +6,7 @@ import pandas as pd
 
 data = pd.read_parquet('wifionice.parquet')
 
-z = data['link_ping']
+x = data[data['link_ping'] > 5000]
 
-
-
-plt.hist(z, bins = 50)
+plt.hist(x)
 plt.show()
