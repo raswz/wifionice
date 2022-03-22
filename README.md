@@ -9,6 +9,8 @@ Link zu einem Backup der Datei: https://t1p.de/wifionice
 
 Link zu den Daten in einer Parquet-Datei der Daten: https://t1p.de/woiparquet
 
+Desweiteren gibt es eine Parquet-Datei, die nur lon und lat enthält. Upload auf Nachfrage an mich.
+
 ToDo:
 - aktuellere Daten erfragen. Mail gesendet, auf Antwort wird gewartet.
 - alle Gruppenbeteiligten ins Repo hinzufügen
