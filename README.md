@@ -2,6 +2,7 @@
 
 Für eine Hausarbeit im Fach Informatik an der Hochschule Karlsruhe hat meine Gruppe sich dazu entschieden eine Auswertung der Daten zu WifionIce der Deutschen Bahn anzufertigen.
 
+Benötigte Python-Moduls: pandas, matplotlib
 
 Link zu den Daten: https://data.deutschebahn.com/dataset/wifi-on-ice.html
 
@@ -45,5 +46,4 @@ Auswertungen für Präsentation:
 
 ToDo:
 - herausfinden, wie ein "Data Science"-Projekt durchgeführt wird
-- Fragen stellen, die durch die Analyse beantwortet werden sollen
 - PPP erstellen
