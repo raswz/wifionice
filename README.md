@@ -25,7 +25,7 @@ Bedeutung der Spaltenbezeichnungen:
   - tprx = Downloadgeschwindigkeit
   - tptx = Uploadgeschwindigkeit
   - link_gw_conn = Aktive Gateway-Verbindung
-  - link_id = ID Accesspoint
+  - link_id = ID Accesspoint (6 Router pro Zug)
   - link_ping = Ping
 
 Fragen:
