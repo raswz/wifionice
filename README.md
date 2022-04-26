@@ -17,24 +17,23 @@ Bedeutung der Spaltenbezeichnungen:
   - GPS_Laenge
   - GPS_Breite
   - GPS_Hoehe
-  - GPS_V = Vektor oder Velocity(Geschwindigkeit)?
+  - GPS_V = Velocity(Geschwindigkeit)
   - sat = Anzahl der Satelliten in Sicht bei Messung
   - gps_richtung = Richtung als 360° Angabe
-  - pax_auth 
-  - pax_total
-  - tprx = Downloadgeschwindigkeit?
-  - tptx = Uploadgeschwindigkeit?
-  - link_id = ID Accesspoint?
+  - pax_auth = Anzahl der Geräte mit Zugang zum Internet
+  - pax_total = Anzahl der Geräte im Netzwerk
+  - tprx = Downloadgeschwindigkeit
+  - tptx = Uploadgeschwindigkeit
+  - link_gw_conn = Aktive Gateway-Verbindung
+  - link_id = ID Accesspoint
   - link_ping = Ping
 
 Fragen:
   - ICE-Geschwindigkeit korrelliert mit Downloadgeschwindigkeit?
   - "GSP_Hoehe"-Errors vom Zug oder der geografischen Position abhängig?
-  - Link_ID Bezeichung für Access-Point im Zug?
   - Bedeutung SID
-  - tprx = Download? tptx = Upload?
   - Wie kommt GPS_Richtung zu stande?
-  - gps_v = Velocity? Max-Wert ist Error?
+  - gps_v = Max-Wert ist Error?
   - Einzelnen Zug herausgreifen
 
 Auswertungen für Präsentation:
