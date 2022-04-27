@@ -14,6 +14,7 @@ Desweiteren gibt es eine Parquet-Datei, die nur lon und lat enthält. Upload auf
 
 Bedeutung der Spaltenbezeichnungen:
   - SID
+  - Created = Zeitstempel der Messung an den 3 Tagen (08.03.2017 (4.75M Messungen), 01.05.2017(12.2M Messungen), 02.05.2017(6.6M Messungen))
   - GPS_Laenge
   - GPS_Breite
   - GPS_Hoehe masl
