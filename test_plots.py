@@ -1,17 +1,22 @@
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
+ax = plt.axes()
 
-data = pd.read_parquet('wifioniceping.parquet') #Importiert die WifionIce.parquet-Datei
+data = pd.read_parquet(r'c:\users\Ronja\Documents\GitHub\wifionice\wifionice.parquet') #Importiert die WifionIce.parquet-Datei
 
-y = data['gps_breite'][::1] # Setzt die Breitenkoordinaten aus der Datei als x-Variable
-x = data['gps_laenge'][::1] # Setzt die Breitenkoordinaten aus der Datei als y-Variable
-c = data['link_ping'][::1] # Bestimmte die Größe der Punkte anhand der "gps_v"-Werte
-s = 40
+y = data['gps_breite'][::100] # Setzt die Breitenkoordinaten aus der Datei als x-Variable
+x = data['gps_laenge'][::100] # Setzt die Breitenkoordinaten aus der Datei als y-Variable
+s = data['sid'][::100] # Bestimmte die Größe der Punkte anhand der "gps_v"-Werte
 
-mpl.colors.Normalize(vmin=0, vmax=5000)
+plt.title("WifiOnIce")
+
+#ax.set_facecolor(transparent=True)
+
+#mpl.colors.Normalize(vmin=0, vmax=5000)
 #mpl.colors.Colormap('Dark2', N=5)
-plt.axis('equal') # Setzt für beide Achsen die gleichen Abstände, um ein kaum verzerrtes Abbild der Koordinaten zu bekommen
+#ax.set_aspect('equal', adjustable='box', anchor='C') # Setzt für beide Achsen die gleichen Abstände, um ein kaum verzerrtes Abbild der Koordinaten zu bekommen
 
-plt.scatter(x, y, s, c, cmap='Dark2_r', alpha=0.1, linewidths=0) # Erstellt einen Scatterplot mit der x- und y-Variable
+plt.scatter(x, y, s, linewidths=0) # Erstellt einen Scatterplot mit der x- und y-Variable
 plt.show() # Zeigt den erstellten Scatterplot
+#plt.savefig('wifionice.png', dpi=600, facecolor=None) # Speichert den Scatterplot als .png-Datei
