@@ -3,3 +3,8 @@ wifionicekurz.parquet
 wifioniceping.parquet
 wifionice.csv
 Website_DB_WifionIce_Backup.zip
+wifionice\wifionice.feather
+wifionice\wifionice_backup.parquet
+wifionice.feather
+wifionice_backup.parquet
+.gitignore
