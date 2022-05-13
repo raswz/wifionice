@@ -10,10 +10,10 @@ data = data_raw[data_raw["gps_v"] <= 95] #Filtert die Daten auf die gewünschte 
 #data = data[data['sid'] >= 245000000]
 #data = data[data['sid'] <= 260000000]
 #data = data[data["created"] >= ]
-#data = data[data["gps_breite"] >= 48.97]
-#data = data[data["gps_breite"] <= 49.04]
-#data = data[data["gps_laenge"] >= 8.35]
-#data = data[data["gps_laenge"] <= 8.52]
+data = data[data["gps_breite"] >= 48.97]
+data = data[data["gps_breite"] <= 49.04]
+data = data[data["gps_laenge"] >= 8.35]
+data = data[data["gps_laenge"] <= 8.52]
 
 #print(data.describe())
 
@@ -24,7 +24,7 @@ s = data["gps_v"][::a]
 
 fig = px.scatter_mapbox(data, lat=data["gps_breite"][::a], lon=data["gps_laenge"][::a], hover_name=data["created"][::a], color=c, size=s,
                         color_continuous_scale="Aggrnyl" , range_color=(0, 4000000), opacity=0.4, size_max=10, zoom=4, center={"lat":51.086161, "lon":10.386435},
-                        mapbox_style="open-street-map", title="WifiOnIce - Farbskala ist die gemessene Downloadgeschwindigkeit in byte/s")
+                        mapbox_style="open-street-map", title="WifiOnIce - Farbskala zeigt die gemessene Downloadgeschwindigkeit in byte/s")
 
 fig.update_layout(font_family="Comic Sans MS")
 fig.update_layout(font_size=20)
