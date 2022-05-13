@@ -37,9 +37,11 @@ Fragen:
   - Einzelnen Zug herausgreifen
 
 Auswertungen für Präsentation:
+
 Lani:
   - Erklärung Datensatz (Erklärung Errors)
   - Downloadgeschwindigkeit von Zuggeschwindigkeit abhängig?
+
 Scle:
   - Koordinaten mit Ping, Download, GPS_V verknüpfen
   - Einzelnen Zug exemplarisch zeigen
