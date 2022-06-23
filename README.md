@@ -49,3 +49,5 @@ Scle:
 ToDo:
 - herausfinden, wie ein "Data Science"-Projekt durchgeführt wird
 - PPP erstellen
+
+NmL: Können wir uns heute in Discord treffen? Nukes#7663
